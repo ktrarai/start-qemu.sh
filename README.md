@@ -43,7 +43,7 @@ next to the script and share its basename, i.e. for `start-qemu.sh`
 the script looks for `start-qemu.cfg` in the same directory.
 
 ```sh
-git clone https://github.com/ktrarai/start-qemu.git
+git clone https://github.com/ktrarai/start-qemu.sh.git
 cd start-qemu
 chmod +x start-qemu.sh
 ```

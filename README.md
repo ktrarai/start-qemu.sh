@@ -1,4 +1,4 @@
-# start-qemu
+# start-qemu.sh
 
 A thin wrapper script for launching QEMU virtual machines from named,
 reusable configuration profiles.
@@ -43,7 +43,7 @@ next to the script and share its basename, i.e. for `start-qemu.sh`
 the script looks for `start-qemu.cfg` in the same directory.
 
 ```sh
-git clone https://github.com/<you>/start-qemu.git
+git clone https://github.com/ktrarai/start-qemu.git
 cd start-qemu
 chmod +x start-qemu.sh
 ```

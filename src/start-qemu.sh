@@ -212,7 +212,7 @@ cd "${dir}" || {
     if pgrep -L -F qemu.pid >/dev/null 2>&1
     then
         write_error "${section_name} is already running:"
-        ps -ww -p "$(< qemu.pid)" 1>&2
+        ps -ww -o pid,tname,time,cmd -p "$(< qemu.pid)" 1>&2
         exit 1
     else
         rm -f qemu.pid
